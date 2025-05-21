@@ -103,6 +103,15 @@
       color: #007ACC;
       text-decoration: underline;
     }
+
+    .profile-photo {
+      width: 100%;
+      height: auto;
+      max-height: 200px;
+      border-radius: 1rem;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
   </style>
 </head>
 <body>
@@ -120,11 +129,31 @@
 
   <main>
     <aside>
-      <div class="photo">사진</div>
+      <img src="KakaoTalk_20250521_160949052.png" 
+      alt="홍수현 리즈시절" class="profile-photo"/> 
+      <br>
       <h2>연락처</h2>
-      <p>Email: suhyeon@example.com</p>
-      <p>LinkedIn: linkedin.com/in/suhyeon</p>
-      <p>GitHub: github.com/suhyeon</p>
+        <p>📧 Email: <a href="mailto:suhyun@example.com">1639.sue.hong@gmail.com</a></p>
+        <p>LinkedIn: linkedin.com/in/suhyeon</p>
+        <p>GitHub: github.com/suhyeon</p>
+
+      <h2 style="margin-top: 2rem;">Skills</h2>
+        <ul style="text-align: left; padding-left: 2rem; line-height: 1.6;">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Tableau</li>
+          <li>Microsoft Office</li>
+          <li>SPSS</li>
+        </ul>
+        <br>
+      <h2>언어</h2>
+        <ul style="text-align: left; padding-left: 2rem; line-height: 1.6;">
+          <li>한국어 (모국어)</li>
+          <li>영어 (상급)</li>
+          <li>중국어 (초급)</li>
+        </ul>
+      
     </aside>
 
     <section>
@@ -157,7 +186,7 @@
             </li>
           </ul>
         </div>
-
+          <br>
         <div class="project-item">
           <div class="project-header"><strong>L'Oréal Brandstorm Competition</strong></div>
           <div class="project-date">01/2025 – 03/2025</div>
@@ -169,7 +198,7 @@
             </li>
           </ul>
         </div>
-
+          <br>
         <div class="project-item">
           <div class="project-header"><strong>LG CNS Quinoa Supporter</strong></div>
           <div class="project-date">06/2023 – 09/2023</div>
@@ -188,8 +217,8 @@
 
   <footer>
     <div class="footer-block" id="languages">
-      <h3>언어</h3>
-      <p>한국어 (Native), 영어 (Highly Proficient), 중국어 (Beginner)</p>
+      <h3>관심 분야</h3>
+      <p>데이터 분석, 개발, 마케팅</p>
     </div>
     <div class="footer-block" id="download">
       <h3>이력서 다운로드</h3>
