@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>홍수현의 포트폴리오</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #f9fafb;
+      color: #1f2937;
+    }
+
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-size: 1rem;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    aside {
+      flex: 0 0 300px;
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+      text-align: center;
+    }
+
+    .photo {
+      background-color: #d1d5db;
+      border-radius: 0.5rem;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+
+    section {
+      flex: 2 1 500px;
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    .section-block {
+      margin-bottom: 2rem;
+    }
+
+    .section-block ul
+    {padding-left: 1.5rem;}
+
+    .section-block h2 {
+    margin-bottom: 0.5rem;
+    }
+
+    .section-block p {
+    margin-top: 0.5rem;
+    }
+
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding: 0 2rem 2rem;
+    }
+
+    .footer-block {
+      flex: 1 1 200px;
+      background-color: white;
+      padding: 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+      text-align: center;
+    }
+
+    a.download-link {
+      color: #007ACC;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>홍수현의 포트폴리오</h1>
+    <nav>
+      <a href="#about">소개</a>
+      <a href="#education">학력</a>
+      <a href="#projects">프로젝트</a>
+      <a href="#contact">연락처</a>
+      <a href="#languages">언어</a>
+      <a href="#download">이력서 다운로드</a>
+    </nav>
+  </header>
+
+  <main>
+    <aside>
+      <div class="photo">사진</div>
+      <h2>연락처</h2>
+      <p>Email: suhyeon@example.com</p>
+      <p>LinkedIn: linkedin.com/in/suhyeon</p>
+      <p>GitHub: github.com/suhyeon</p>
+    </aside>
+
+    <section>
+      <div class="section-block" id="about">
+        <h2>소개</h2>
+        <p>안녕하세요! 데이터 분석과 웹 개발에 대해 공부하고 있는 홍수현입니다. 
+          데이터 분석과 웹 개발에 대해 배우는 것은 이번이 처음이지만 더 열심히 
+          노력해서 마스터 할 수 있도록 하겠습니다!
+        </p>
+      </div>
+
+      <div class="section-block" id="education">
+        <h2>학력</h2>
+        <div class="project-item">
+          <div class="edu-date>"> 2022-2026</div>
+          <div class="edu-header"><strong>The University of Hong Kong (홍콩대학교)</strong></div>
+          <p>글로벌 문화산업, 마케팅 (복수전공)</p>
+        </div>
+      </div>
+
+      <div class="section-block" id="projects">
+        <h2>프로젝트</h2>
+
+        <div class="project-item">
+          <div class="project-header"><strong>HSBC Life Insurance Case Competition</strong></div>
+          <div class="project-date">03/2025 – 04/2025</div>
+          <ul>
+            <li>
+              다양한 국가와 플랫폼의 보험 및 소비자 니즈를 조사하고,
+              이를 바탕으로 데이터 분석을 활용한 혁신적인 보험 아이디어를 도출했습니다.
+            </li>
+          </ul>
+        </div>
+
+        <div class="project-item">
+          <div class="project-header"><strong>L'Oréal Brandstorm Competition</strong></div>
+          <div class="project-date">01/2025 – 03/2025</div>
+          <ul>
+            <li>
+              로레알 남성 스킨케어 제품군에 대해 심층적으로 조사하고,
+              데이터 분석과 사용자 경험 중심의 기획을 통해
+              시장의 미충족 니즈를 해결할 혁신적인 제품 개선 방안을 제안했습니다.
+            </li>
+          </ul>
+        </div>
+
+        <div class="project-item">
+          <div class="project-header"><strong>LG CNS Quinoa Supporter</strong></div>
+          <div class="project-date">06/2023 – 09/2023</div>
+          <ul>
+            <li>
+              퀴노아 설문조사 데이터를 바탕으로 접근성 있는 콘텐츠를 기획하고,
+              데이터 분석 결과를 반영한 인스타그램 및 유튜브 콘텐츠를 제작하여
+              사용자 경험과 참여도를 높였습니다.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+          </section>
+        </main>
+
+  <footer>
+    <div class="footer-block" id="languages">
+      <h3>언어</h3>
+      <p>한국어 (Native), 영어 (Highly Proficient), 중국어 (Beginner)</p>
+    </div>
+    <div class="footer-block" id="download">
+      <h3>이력서 다운로드</h3>
+      <a class="download-link" href="resume.pdf" download>Resume.pdf</a>
+    </div>
+  </footer>
+</body>
+</html>
